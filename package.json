@@ -1,0 +1,33 @@
+{
+  "name": "jquery-winzard",
+  "version": "0.0.1",
+  "description": "Form wizards made simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js",
+    "serve": "http-server . -p 1234",
+    "watchify": "watchify example.js -o bundle.js -v -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjdavenport/jquery-winzard.git"
+  },
+  "keywords": [
+    "form",
+    "wizard"
+  ],
+  "author": "Torrance Davenport <tjdavenport2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjdavenport/jquery-winzard/issues"
+  },
+  "homepage": "https://github.com/tjdavenport/jquery-winzard#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "browserify": "^12.0.1",
+    "http-server": "^0.8.5",
+    "jquery": "^2.1.4",
+    "mocha": "^2.3.3",
+    "watchify": "^3.5.0"
+  }
+}
